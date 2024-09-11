@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8"> <!--Specifies character encoding for the HTML document-->
+    <!--Gives the browser instructions on how to control the dimensions of the webpage.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Calls a Google Font API and links to stylesheet for custom font - Poppins-->
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Happy Monkey' rel='stylesheet'>
+    <!--Links HTML doc with CSS stylesheet to style and layout the webpage.-->
+    <link rel = "stylesheet" href = "occ-project-style.css">
+    <title>OCC Project</title>
+</head>
+<body>
+
+    <!--Nav class is for a navbar :D-->
+    <nav>
+        <div class="arrow-left">
+            <a href = "http://127.0.0.1:3000/projects.html"><img src = "Assets/left-arrow.png" alt = "left-arrow"></a>
+        </div>
+        <div class = "navbar-items">
+            <a class = "active" href = "http://127.0.0.1:3000/index.html">Home</a>
+            <a href = "http://127.0.0.1:3000/aboutme.html">About Me</a>
+            <a href = "http://127.0.0.1:3000/projects.html">Projects</a>
+        </div>
+    </nav>
+
+    <!--A hero class allows you to add a full width banner to the webpage.-->
+    <section class = "hero">
+        <div class = "center-image"></div>
+        <div class = "hero-container">
+            <div class = "column-center">
+                <h1>OCC Project</h1>
+    </section>
+
+    <section class = "rza-application">
+        <div class = "project-title">
+            <h1>Riget Zoo Adventures Application</h1>
+        </div>
+        <div class = "project-description">
+            <iframe width = "420" height = "315" src = "https://youtube.com/embed/j2z9kOhpZ8Q?si=BMhkfp8eaGPSRnOfautoplay=1&mute=1loop=1">
+            </iframe>
+            <p>To develop the prototype for Riget Zoo Adventures, I implemented secure code using C# with Windows Forms for the front-end and SQL for stored procedures and database queries in the back-end. I gathered and prepared all necessary assets, such as images and icons, and maintained an assets log to document the sources, content, purpose, and retrieval dates. During development, I employed iterative testing to verify inputs, calculations, validation, and processes with appropriate test data, and documented the iterative approach and any changes made. I ensured that the code was maintainable by third parties and focused on delivering a high-quality user experience. Additionally, I adhered to all legal and regulatory guidelines and standards, with comprehensive documentation reflecting the development process and modifications.</p>
+        </div>
+        <a href = "https://github.com/CarlBaines/OCC-Project-Riget-Zoo-Adventures-Application-" target = "_blank"><button>Click to view Github Repository</button></a>
+    </section>
+
+    <div class = "footer">
+        <h1>2024 | Created by Carl Baines</h1>
+    </div>
+
+</body>
+</html>
