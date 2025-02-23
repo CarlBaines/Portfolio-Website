@@ -323,7 +323,7 @@ nav a:hover{
 }
 
 #contact-description{
-    padding-top: 90px;
+    padding-top: 45px;
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 45px;
@@ -351,36 +351,6 @@ nav a:hover{
 
 #contact-description img{
     width: 15px;
-}
-
-.reference-description{
-    text-align: center;
-    padding-bottom: 90px;
-}
-
-.reference-description img{
-    width: 15px;
-}
-
-.reference-description h1{
-    font-family: Happy Monkey;
-    font-weight: 600;
-    font-size: 36px;
-    padding-bottom: 10px;
-}
-
-.reference-description h2{
-    font-weight: 600;
-}
-
-.reference-description h3{
-    font-style: italic;
-}
-
-.reference-description h4{
-    padding-top: 5px;
-    font-style: italic;
-    font-size: 18px;
 }
 
 .footer{
