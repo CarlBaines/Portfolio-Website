@@ -101,6 +101,7 @@ nav a{
 .project-title h1{
     font-weight: 700;
     font-family: Happy Monkey;
+    text-decoration: underline;
     font-size: 28px;
 }
 
