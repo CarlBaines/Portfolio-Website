@@ -1,0 +1,367 @@
+*{
+    /*border-box tells the browser to account for borders and padding*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';font-size: 18px; font-weight: 400;
+    justify-content: center;
+    align-items: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    height: 90px;
+    background: #212331;
+    overflow: hidden;
+    /*Flexbox layout mode, allowing element alignment, spacing and order within a container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    padding-right: 20px;
+    border-bottom: 2px solid white;
+}
+
+.navbar-items{
+    margin: auto;
+    width: fit-content;
+}
+
+
+.navbar-items button{
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1rem;
+    border-bottom: 3px solid transparent;
+}
+
+/*:hover allows you to configure an element when the mouse is hovered over it*/
+nav a:hover{
+    border-bottom: 2px solid whitesmoke;
+    padding-bottom: 10px;
+}
+
+
+.hero{
+    background: #40445f;
+    
+}
+
+.row{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.center-image img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+    padding-top: 240px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+.hero-container{
+    padding-bottom: 240px;
+    text-align: center;
+    border-bottom: 3px solid black;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.column-center h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    font-family: Happy Monkey;
+    padding-top: 10px;
+    
+}
+
+.column-center p{
+    font-style: italic;
+    color: silver;
+    margin-top: -5px;
+}
+
+
+.github-link img{
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 10px;
+    width: 60px;
+    transition: 0.2s;
+}
+
+.github-link img:hover{
+    transform: scale(1.125);
+}
+
+.linkedin-link img{
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 61.5px;
+    transition: 0.2s;
+}
+
+.linkedin-link img:hover{
+    transform: scale(1.125);
+}
+
+.description{
+    padding-top: 90px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+.description h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Happy Monkey;
+}
+
+.description p{
+    padding-top: 10px;
+    font-weight: 400;
+}
+
+.description button{
+    background-color: #512DA8;
+    border: 4px solid black;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 25px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.description button:hover{
+    transform: scale(1.02);
+}
+
+#widgets-row{
+    background: #40445f;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.box{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+    color: white;
+    position: relative;
+    border: 3px solid white;
+    border-radius: 25px;
+    
+}
+
+.box h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Happy Monkey;
+    text-decoration: underline;
+}
+
+.box h2{
+    color: #fff;
+    font-family: Happy Monkey;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.box h3{
+    font-style: italic;
+    color: #fff;
+}
+
+.box li{
+    color: #fff;
+    padding: 5px 25px;
+}
+
+.box p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.box img{
+    width: 20%;
+    padding-bottom: 15px;
+    transition: 0.5s;
+}
+
+.box img:hover{
+    transform: scale(1.1);
+}
+
+.box button{
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 25px;
+    color: black;
+    padding: 5px 25px;
+    margin-top: 5px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.box button:hover{
+    transform: scale(1.02);
+}
+
+.skills-box{
+    padding-top: 45px;
+    padding-bottom: 45px;
+    text-align: center;
+    color: white;
+    position: relative;
+    
+}
+
+.skills-box h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: Happy Monkey;
+    text-decoration: underline;
+}
+
+.skills-box h2{
+    color: #fff;
+    font-family: Happy Monkey;
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.skills-box h3{
+    font-style: italic;
+    color: #fff;
+}
+
+.skills-box li{
+    color: #fff;
+    padding: 5px 25px;
+}
+
+.skills-box p{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.skills-box img{
+    width: 15%;
+    padding-top: 5px;   
+    padding-left: 20px;
+    padding-bottom: 15px;
+    transition: 0.2s;
+}
+
+.skills-box img:hover{
+    transform: scale(1.02);
+    padding-bottom: 10px;
+}
+
+#contact-description{
+    padding-top: 45px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 45px;
+    text-align: center;
+}
+
+#contact-description h1{
+    padding-bottom: 10px;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: Happy Monkey;
+}
+
+#contact-description h2{
+    font-weight: 600;
+}
+
+#contact-description a{
+    text-decoration: none;
+}
+
+#contact-description p{
+    font-weight: 400;
+}
+
+#contact-description img{
+    width: 15px;
+}
+
+.footer{
+    border-top: 3px solid black;
+    background-color: #212331;
+    text-align: center;
+    padding-bottom: 45px;
+    padding-top: 45px;
+}
+
+.footer h1{
+    color: white;
+}
+
