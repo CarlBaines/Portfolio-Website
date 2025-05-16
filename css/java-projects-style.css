@@ -1,3 +1,15 @@
+@font-face{
+    font-family: 'Poppins';
+    font-weight: 700;
+    src: url('../Assets/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: url('../Assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
 *{
     /*border-box tells the browser to account for borders and padding*/
     box-sizing: border-box;
@@ -113,6 +125,8 @@ nav a{
     font-weight: 700;
     font-family: Happy Monkey;
     font-size: 32px;
+    padding-top: 45px;
+    padding-bottom: 25px;
     text-decoration: underline;
 }
 
@@ -153,7 +167,7 @@ nav a{
     transform: scale(1.02);
 }
 
-.cookie-clicker{
+.java-ica{
     text-align: center;
     padding-bottom: 75px;
 }
@@ -166,13 +180,20 @@ nav a{
 }
 
 .project-description2 p{
+    text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 500px;
     padding-right: 500px;
 }
 
-.cookie-clicker button{
+.project-description2 iframe{
+    text-align: center;
+    padding-top: 25px;
+    border: none;
+}
+
+.java-ica button{
     background-color: #512DA8;
     border: 4px solid black;
     border-radius: 25px;
@@ -186,7 +207,7 @@ nav a{
     transition: 0.2s;
 }
 
-.java-ica{
+.calculator-app{
     text-align: center;
     padding-bottom: 75px;
 }
@@ -212,7 +233,7 @@ nav a{
     border: none;
 }
 
-.java-ica button{
+.calculator-app button{
     background-color: #512DA8;
     border: 4px solid black;
     border-radius: 25px;
@@ -226,6 +247,47 @@ nav a{
     transition: 0.2s;
 }
 
+.project-section {
+    text-align: center;
+    padding-bottom: 75px;
+}
+
+.project-title h1 {
+    font-size: 28px;
+    font-family: Happy Monkey;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.project-description video,
+.project-description iframe {
+    padding-top: 25px;
+    border: none;
+}
+
+.project-description p {
+    padding: 25px 500px;
+}
+
+.project-section button {
+    background-color: #512DA8;
+    border: 4px solid black;
+    border-radius: 25px;
+    color: white;
+    padding: 5px 25px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.project-section button:hover {
+    transform: scale(1.02);
+}
+
+
 .footer{
     border-top: 3px solid black;
     background-color: #212331;
@@ -236,6 +298,15 @@ nav a{
 
 .footer h1{
     color: white;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    text-decoration: underline;
 }
 
 

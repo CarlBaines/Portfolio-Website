@@ -1,24 +1,20 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-    <meta charset = "UTF-8"> <!--Specifies character encoding for the HTML document-->
-    <!--Gives the browser instructions on how to control the dimensions of the webpage.-->
+    <meta charset = "UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Calls a Google Font API and links to stylesheet for custom font - Poppins-->
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     <link href='https://fonts.googleapis.com/css?family=Happy Monkey' rel='stylesheet'>
-    <!--Links HTML doc with CSS stylesheet to style and layout the webpage.-->
+    <link rel = "icon" type = "image/x-icon" href = "/Assets/site_icon.ico">
     <link rel = "stylesheet" href = "./css/index-style.css">
     <title>Portfolio Website</title>
 </head>
 <body>
 
-    <!--Nav class is for a navbar :D-->
     <header id="header">
     <nav>
         <div class = "navbar-items">
             <a href = "#">Home</a>
-            <a href = "./pages/aboutme.html">About Me</a>
             <a href = "./pages/portfolio.html">Portfolio</a>
             <a href = "#contact-description">
                 <button>Contact</button>
@@ -27,7 +23,6 @@
     </nav>
     </header>
 
-    <!--A hero class allows you to add a full width banner to the webpage.-->
     <section class = "hero">
         <div class = "center-image"><img src = "./Assets/clogo.png" alt = "c-logo"></div>
         <div class = "hero-container">
@@ -45,13 +40,10 @@
     <div class = "description">
         <h1>Hi my name is Carl</h1>
         <p>I am currently studying a BSc(Hons) Computer Science Degree at Teesside University. I have previously undertaken an industry work placement at Middlesbrough College to gain more skills and knowledge in a specialist area. I have an interest in several computing areas particularly web design and development.</p>
-        <!--Anchor link-->
-            <a href = "#widgets-row">
+        <a href = "#widgets-row">
                 <button>Read More ></button>
             </a>
     </div>
-
-    <!--Make widgets about different things e.g. experience, skills etc.-->
 
     <section id = "widgets-row">
         <div class = "box">
@@ -68,13 +60,14 @@
         <div class = "skills-box">
             <h1>Skills</h1>
             <li>I am certified in Microsoft Word and PowerPoint.</li>
-            <li>I have experience in Python, C# and Java.</li>
+            <li>I have experience in Java, SQL, HTML and CSS.</li>
             <li>I am skilled at using content management systems, such as WordPress.</li>
             <li>I am proficient at video editing, using tools such as Davinci Resolve.</li>
             <li>I am proficient at structuring and articulating written work and documentation.</li>
             <img src = "./Assets/java-logo.png" alt = "java-logo">
-            <img src = "./Assets/python-logo.png" alt = "python-logo">
-            <img src = "./Assets/c-sharp-logo.png" alt = "c-sharp-logo">
+            <img src = "./Assets/sql-server-icon.png" alt = "sql-logo">
+            <img src = "./Assets/html-logo.png" alt = "html-logo">
+            <img src = "./Assets/css-logo.png" alt = "css-logo">
             <img src = "./Assets/wordpress-logo.png" alt = "wordpress-logo">
             <img src = "./Assets/davinci-logo.png" alt = "davinci-logo">
         </div>
@@ -97,6 +90,36 @@
         </div>
     </section>
 
+    <div class = "hobbies-title">
+        <h1>About Me - My Hobbies/Interests</h1>
+    </div>
+
+    <section class = "hobbies-one">
+        <div class = "box">
+            <h1>Football</h1>
+            <img src = "./Assets/boro-logo.png" alt = "club-logo">
+            <li>I support Middlesbrough FC.</li>
+            <li>I also enjoy playing a lot of football with my friends.</li>
+            <li>I like to play football because I am a runner.</li>
+        </div>
+        <div class = "box">
+            <h1>Gaming</h1>
+            <img src = "./Assets/marvel-rivals-icon.png" alt = "game-logo">
+            <li>I occassionally like to play video games.</li>
+        </div>
+        <div class = "box">
+            <h1>Reading</h1>
+            <img src = "./Assets/Atomic_habits.jpg" alt = "book">
+            <li>I enjoy reading in my spare time.</li>
+        </div>
+        <div class = "box">
+            <h1>Music</h1>
+            <img src = "./Assets/spotify-logo.png" alt = "music-logo">
+            <li>I enjoy listening to music on Spotify.</li>
+            <li>My favourite artists are Drake, Kendrick Lamar and Joji.</li>
+        </div>
+    </section>
+
 
     <section id = "contact-section">
         <div id = "contact-description">
@@ -111,7 +134,7 @@
     </section>
 
     <div class = "footer">
-        <h1>2025 | Created by Carl Baines</h1>
+        <h1>2025 | Created by Carl Baines | <a href = "https://github.com/CarlBaines" target = "_blank">Github</a></h1>
     </div>   
 
 

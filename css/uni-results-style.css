@@ -1,3 +1,15 @@
+@font-face{
+    font-family: 'Poppins';
+    font-weight: 700;
+    src: url('../Assets/fonts/Poppins-Bold.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'Poppins';
+    font-weight: 400;
+    src: url('../Assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
 *{
     /*border-box tells the browser to account for borders and padding*/
     box-sizing: border-box;
