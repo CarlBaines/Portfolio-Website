@@ -78,7 +78,8 @@ nav a:hover{
 }
 
 .results{
-    padding-top: 90px;
+    padding-top: 45px;
+    padding-bottom: 45px;
     text-align: center;
 }
 
@@ -87,26 +88,32 @@ nav a:hover{
     padding-bottom: 20px;
 }
 
+.results img:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+}
+
 .first-year-results h1{
-    font-weight: 600;
+    font-family: Happy Monkey;
+    font-weight: 700;
     font-size: 34px;
 }
 
 .first-year-results h2{
+    padding-top: 5px;
     font-style: italic;
     padding-bottom: 10px;
 }
 
 .second-year-results h1{
-    font-weight: 600;
+    font-family: Happy Monkey;
+    font-weight: 700;
     font-size: 34px;
 }
 
 .second-year-results h2{
+    padding-top: 5px;
     font-style: italic;
     padding-bottom: 10px;
 }
 
-.second-year-results p{
-    padding-bottom: 45px;
-}
