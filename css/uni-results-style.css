@@ -77,19 +77,31 @@ nav a:hover{
     
 }
 
-.gcse-results{
-    padding-top: 140px;
+.uni-results{
+    padding-top: 45px;
     text-align: center;
+    padding-bottom: 45px;
 }
 
-.gcse-results img{
+.uni-results img{
+    width: 150px;
+    height: auto;
     padding-bottom: 15px;
 }
 
-.gcse-results h1{
+.uni-results img:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
+}
+
+.uni-results h1{
     font-family: Happy Monkey;
     font-weight: 600;
     font-size: 34px;
+    padding-bottom: 15px;
+}
+
+.uni-results p{
     padding-bottom: 15px;
 }
 

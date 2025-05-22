@@ -20,6 +20,10 @@
     align-items: center;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 nav{
     height: 90px;
     background: #212331;
@@ -117,6 +121,11 @@ nav a:hover{
     padding-top: 25px;
     width: 120px;
     padding-bottom: 15px;
+}
+
+.box img:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 0.3s;
 }
 
 .box button{

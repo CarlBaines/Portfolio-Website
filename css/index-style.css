@@ -236,6 +236,14 @@ nav a:hover{
 .box li{
     color: #fff;
     padding: 5px 25px;
+    list-style-position: inside;
+}
+
+.box li a{
+    font-weight: 700;
+    color: #fff;
+    padding: 5px 25px;
+    text-decoration: none;
 }
 
 .box p{
@@ -250,7 +258,7 @@ nav a:hover{
 }
 
 .box img:hover{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .box button{
@@ -265,6 +273,7 @@ nav a:hover{
     cursor: pointer;
     transition: 0.2s;
 }
+
 
 .box button:hover{
     transform: scale(1.02);
@@ -304,6 +313,7 @@ nav a:hover{
 .skills-box li{
     color: #fff;
     padding: 5px 25px;
+    list-style-position: inside;
 }
 
 .skills-box p{
@@ -387,6 +397,7 @@ nav a:hover{
 }
 
 .hobbies-one .box img{
+    padding-top: 15px;
     width: 100px;
 }
 
