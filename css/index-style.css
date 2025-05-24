@@ -18,6 +18,7 @@
     font-family: 'Poppins';font-size: 18px; font-weight: 400;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 html{
@@ -102,8 +103,6 @@ nav a:hover{
 
 .hero-container{
     padding-bottom: 240px;
-    text-align: center;
-    border-bottom: 3px solid black;
     animation: fadeInAnimation ease 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -126,29 +125,23 @@ nav a:hover{
 }
 
 
-.github-link img{
-    align-items: center;
-    padding-top: 10px;
-    padding-right: 10px;
-    width: 60px;
-    transition: 0.2s;
-}
-
-.github-link img:hover{
-    transform: scale(1.125);
-}
-
-.linkedin-link img{
+.github-link img,
+.linkedin-link img,
+.leetcode-link img{
     align-items: center;
     padding-top: 10px;
     padding-left: 10px;
-    width: 61.5px;
+    padding-right: 10px;
+    width: 65px;
     transition: 0.2s;
 }
 
-.linkedin-link img:hover{
+.github-link img:hover,
+.linkedin-link img:hover,
+.leetcode-link img:hover{
     transform: scale(1.125);
 }
+
 
 .description{
     padding-top: 90px;
@@ -170,21 +163,17 @@ nav a:hover{
 }
 
 .description button{
-    background-color: #512DA8;
+    background-color: white;
+    color: black;
     border: 4px solid black;
     border-radius: 25px;
-    color: white;
     padding: 5px 25px;
     margin-top: 10px;
-    font-weight: 700;
-    font-size: 18px;
+    font-weight: 600;
+    font-size: 16px;
     text-decoration: none;
     cursor: pointer;
     transition: 0.2s;
-}
-
-.description button:hover{
-    transform: scale(1.02);
 }
 
 #widgets-row{
@@ -192,10 +181,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     grid-gap: 20px;
-    padding-left: 45px;
-    padding-right: 45px;
-    padding-top: 45px;
-    padding-bottom: 45px;
+    padding: 45px;
     border-top: 3px solid black;
     border-bottom: 3px solid black;
 }
@@ -223,7 +209,8 @@ nav a:hover{
     color: #fff;
     font-family: Happy Monkey;
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
+    text-decoration: underline;
     padding-top: 10px;
     padding-bottom: 15px;
 }
@@ -266,26 +253,16 @@ nav a:hover{
     border: 4px solid black;
     border-radius: 25px;
     color: black;
-    padding: 5px 25px;
-    margin-top: 5px;
     font-weight: 700;
-    text-decoration: none;
-    cursor: pointer;
-    transition: 0.2s;
 }
 
-
-.box button:hover{
-    transform: scale(1.02);
-}
-
+/* Skills section */
 .skills-box{
     padding-top: 45px;
     padding-bottom: 45px;
     text-align: center;
     color: white;
     position: relative;
-    
 }
 
 .skills-box h1{
@@ -296,41 +273,23 @@ nav a:hover{
     text-decoration: underline;
 }
 
-.skills-box h2{
-    color: #fff;
-    font-family: Happy Monkey;
-    font-size: 24px;
-    font-weight: 500;
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
-.skills-box h3{
-    font-style: italic;
-    color: #fff;
-}
-
 .skills-box li{
     color: #fff;
     padding: 5px 25px;
     list-style-position: inside;
 }
 
-.skills-box p{
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
 .skills-box img{
-    width: 15%;
-    padding-top: 5px;   
+    width: 75px;
+    padding-top: 5px; 
     padding-left: 20px;
     padding-bottom: 15px;
+    vertical-align: middle;
     transition: 0.2s;
 }
 
-.skills-box img[alt = "css-logo"]{
-    width: 11%;
+.skills-box img[alt="css-logo"]{
+    width: 55px;
 }
 
 .skills-box img:hover{
@@ -338,6 +297,7 @@ nav a:hover{
     padding-bottom: 10px;
 }
 
+/* Contact section */
 #contact-description{
     padding-top: 45px;
     padding-left: 100px;
@@ -359,16 +319,14 @@ nav a:hover{
 
 #contact-description a{
     text-decoration: none;
-}
-
-#contact-description p{
-    font-weight: 400;
+    color: black;
 }
 
 #contact-description img{
     width: 15px;
 }
 
+/* Hobbies section */
 .hobbies-title h1{
     padding-top: 45px;
     text-align: center;
@@ -426,5 +384,187 @@ nav a:hover{
 
 .footer a:hover{
     text-decoration: underline;
+}
+
+nav {
+    padding-right: 20px;
+    border-bottom: 2px solid white;
+}
+
+.navbar-items button {
+    background-color: transparent;
+    color: white;
+    outline: none;
+    border: none;
+}
+
+.center-image img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 240px;
+    padding-top: 240px;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.hero-container {
+    padding-bottom: 240px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+.github-link img,
+.linkedin-link img,
+.leetcode-link img {
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 65px;
+    transition: 0.2s;
+}
+
+.github-link img:hover,
+.linkedin-link img:hover,
+.leetcode-link img:hover {
+    transform: scale(1.125);
+}
+
+/* Responsive styles */
+@media screen and (max-width: 1200px) {
+    .description {
+        padding-left: 120px;
+        padding-right: 120px;
+    }
+    
+    #widgets-row {
+        padding: 25px;
+    }
+    
+    .box img {
+        width: 25%;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .description {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    .center-image img {
+        width: 200px;
+        padding-top: 180px;
+    }
+    
+    .column-center h1 {
+        font-size: 48px;
+    }
+    
+    #widgets-row {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .hobbies-one {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Navigation */
+    nav {
+        padding-right: 0;
+    }
+    
+    /* Hero section */
+    .center-image img {
+        width: 180px;
+        padding-top: 150px;
+    }
+    
+    .column-center h1 {
+        font-size: 40px;
+    }
+    
+    .hero-container {
+        padding-bottom: 180px;
+    }
+    
+    .description {
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    
+    .description h1 {
+        font-size: 32px;
+    }
+    
+    /* Widgets */
+    #widgets-row {
+        grid-template-columns: 1fr;
+    }
+    
+    .hobbies-one {
+        grid-template-columns: 1fr;
+    }
+    
+    .box h1 {
+        font-size: 30px;
+    }
+    
+    .skills-box img {
+        width: 60px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .center-image img {
+        width: 150px;
+        padding-top: 120px;
+    }
+    
+    .column-center h1 {
+        font-size: 32px;
+    }
+    
+    .hero-container {
+        padding-bottom: 120px;
+    }
+    
+    .description {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .description h1 {
+        font-size: 28px;
+    }
+    
+    .github-link img,
+    .linkedin-link img,
+    .leetcode-link img {
+        width: 45px;
+    }
+    
+    .box {
+        padding: 20px;
+    }
+    
+    .box h1 {
+        font-size: 26px;
+    }
+    
+    #contact-description h1 {
+        font-size: 32px;
+    }
+    
+    .footer h1 {
+        font-size: 16px;
+    }
 }
 
