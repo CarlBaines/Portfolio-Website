@@ -55,9 +55,44 @@ nav a:hover{
     padding-bottom: 10px;
 }
 
+/* Dark mode styles */
 .dark-mode{
-    background-color: black;
+    background-color: #111111;
     color: white;
+}
+
+.dark-mode nav{
+    background: #111111;
+    border-bottom: 3px solid #262626;
+}
+
+.dark-mode .hero-container{
+    background-color: #111111;
+    border-bottom: 3px solid #262626;
+}
+
+.dark-mode #web-description,
+.dark-mode #java-description,
+.dark-mode #sql-description,
+.dark-mode #csharp-description{
+    color: white;
+}
+
+.dark-mode .box{
+    border-bottom: 3px solid #262626;
+}
+
+.dark-mode .box p{
+    color: white;
+}
+
+.dark-mode .box button{
+    border: 3px solid #262626;
+}
+
+.dark-mode .footer{
+    background-color: #111111;
+    border-top: 3px solid #262626;
 }
 
 .hero{

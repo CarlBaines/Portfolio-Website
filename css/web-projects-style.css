@@ -72,8 +72,23 @@ nav a{
 }
 
 .dark-mode{
-    background-color: black;
+    background-color: #111111;
     color: white;
+}
+
+.dark-mode nav{
+    background: #111111;
+    border-bottom: 3px solid #262626;
+}
+
+.dark-mode .hero-container{
+    background-color: #111111;
+    border-bottom: 3px solid #262626;
+}
+
+.dark-mode .footer{
+    background-color: #111111;
+    border-top: 3px solid #262626;
 }
 
 /* Hero section styling */
