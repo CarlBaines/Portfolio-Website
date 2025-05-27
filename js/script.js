@@ -10,8 +10,8 @@ btn.style.transition = "opacity 0.5s ease";
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction(){
-    // checks if the number of pixels scrolled from the body or from an element has surpassed 60px.
-    if(document.body.scrollTop > 60 || document.documentElement.scrollTop > 60){
+    // checks if the number of pixels scrolled from the body or from an element has surpassed 1500px.
+    if(document.body.scrollTop > 1500 || document.documentElement.scrollTop > 1500){
         // displays the scroll-to-top button.
         btn.style.display = "block";
         btn.style.transition = "opacity 0.5s ease";
@@ -21,7 +21,7 @@ function scrollFunction(){
         }, 20);
     }
     else{
-        // handles when the user scrolls back up the page (< 60px from the top of the page).
+        // handles when the user scrolls back up the page (< 1500px from the top of the page).
         // sets the opacity of the button back to zero to hide the button.
         btn.style.opacity = "0";
         // another setTimeout function is used to gradually reduce the opacity of the button to facilitate the transition applied to the button.
@@ -37,7 +37,7 @@ function toTop(){
     setTimeout(() => {
         document.body.scrollTop = 0;
         document.documentElement.scrollTop = 0;
-    }, 500);
+    }, 0);
 }
 
 function darkMode(){
