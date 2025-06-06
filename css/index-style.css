@@ -215,6 +215,7 @@ nav a:hover{
     padding-right: 200px;
     padding-bottom: 90px;
     text-align: center;
+    border-top: 3px solid black;
 }
 
 .description h1{

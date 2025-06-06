@@ -1,61 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Happy Monkey' rel='stylesheet'>
-    <link rel="icon" type="image/x-icon" href="../Assets/images/site_icon.ico">
-    <link rel="stylesheet" href="../css/sql-projects-style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Happy Monkey"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="../Assets/images/site_icon.ico"
+    />
+    <link rel="stylesheet" href="../css/sql-projects-style.css" />
     <title>Portfolio Website - SQL Projects</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <nav>
-        <div class="arrow-left">
-            <a href="./portfolio.html"><img src="../Assets/images/left-arrow.png" alt="left-arrow"></a>
-        </div>
+      <div class="arrow-left">
+        <a href="./portfolio.html"
+          ><img src="../Assets/images/left-arrow.png" alt="left-arrow"
+        /></a>
+      </div>
 
-        <div class="navbar-items">
-            <a href="../index.html">Home</a>
-            <a class="active" href="#">SQL Projects</a>
-            <a href="./portfolio.html">Portfolio</a>
-        </div>
+      <div class="navbar-items">
+        <a href="../index.html">Home</a>
+        <a class="active" href="#">SQL Projects</a>
+        <a href="./portfolio.html">Portfolio</a>
+      </div>
     </nav>
 
     <section class="hero">
-        <div class="center-image"></div>
-        <div class="hero-container">
-            <div class="column-center">
-                <h1>SQL Projects</h1>
-            </div>
+      <div class="center-image"></div>
+      <div class="hero-container">
+        <div class="column-center">
+          <h1>SQL Projects</h1>
         </div>
+      </div>
     </section>
 
     <section class="project-section">
-        <div class="project-title">
-            <h1>SQL Server Portfolio ICA</h1>
+      <div class="project-title">
+        <h1>SQL Server Portfolio ICA</h1>
+      </div>
+      <div class="project-description">
+        <div class="project-demo">
+          <iframe
+            src="../Assets/demos/SQLServerPortfolioICA.pdf#zoom=105"
+            width="750"
+            height="750"
+            frameborder="0"
+            >Your browser does not support iframes.
+          </iframe>
         </div>
-        <div class="project-description">
-            <p>
-                Clicking the button below will take you to a GitHub repository that contains SQL queries and tasks
-                completed for the System Designs and Databases module during my first year at university. The work is
-                based on the EuroLeagues sample database and includes data retrieval and manipulation queries, analysis
-                and reporting tasks, as well as basic stored procedures and functions.
-            </p>
-        </div>
-        <a href="https://github.com/CarlBaines/Uni-Y1-SQL_Server_Portfolio_ICA" target="_blank"><button>Click to view
-                Github Repository</button></a>
+        <p>
+          Clicking the button below will take you to a GitHub repository that
+          contains SQL queries and tasks completed for the System Designs and
+          Databases module during my first year at university. The work is based
+          on the EuroLeagues sample database and includes data retrieval and
+          manipulation queries, analysis and reporting tasks, as well as basic
+          stored procedures and functions. Alternatively, you can view a PDF
+          version of the SQL portfolio above, which contains the same queries and
+          explanations in a formatted, easy-to-read document.
+        </p>
+      </div>
+      <a
+        href="https://github.com/CarlBaines/Uni-Y1-SQL_Server_Portfolio_ICA"
+        target="_blank"
+        ><button>Click to view Github Repository</button></a
+      >
     </section>
 
     <div class="footer">
-        <h1>2025 | Created by Carl Baines | <a href="https://github.com/CarlBaines" target="_blank">Github</a></h1>
+      <h1>
+        2025 | Created by Carl Baines |
+        <a href="https://github.com/CarlBaines" target="_blank">Github</a>
+      </h1>
     </div>
 
-    <button id = "scroll-to-top-btn" onclick = "toTop()">↑</button>
-    <button id = "dark-mode-btn" onclick = "darkMode()">☾</button>
-
-</body>
-    <script src="../js/script.js"></script>
+    <button id="scroll-to-top-btn" onclick="toTop()">↑</button>
+    <button id="dark-mode-btn" onclick="darkMode()">☾</button>
+  </body>
+  <script src="../js/script.js"></script>
 </html>
