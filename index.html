@@ -1,195 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Happy Monkey"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="./Assets/images/site_icon.ico" />
+    <link rel="stylesheet" href="./css/index-style.css" />
+    <title>Portfolio Website</title> 
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://fonts.googleapis.com/css?family=Happy Monkey' rel='stylesheet'>
-    <link rel="icon" type="image/x-icon" href="./Assets/images/site_icon.ico">
-    <link rel="stylesheet" href="./css/index-style.css">
-    <title>Portfolio Website</title>
-</head>
-
-<body>
-
+  <body>
     <header id="header">
-        <nav>
-            <div class="navbar-items">
-                <a class = "active" href="#">Home</a>
-                <a href="./pages/portfolio.html">Portfolio</a>
-                <a href="#contact-description">
-                    <button>Contact</button>
-                </a>
-            </div>
-        </nav>
+      <nav>
+        <h1 id="portfolio-site-title">My Portfolio Site</h1>
+        <div class="main-navigation">
+          <a class="active" href="#">Home</a>
+          <a href="./pages/portfolio.html">Portfolio</a>
+          <a href="#contact-description">Contact</a>
+        </div>
+        <div class="profile-links">
+          <a href="https://github.com/CarlBaines" class="github-link"
+            ><img src="./Assets/images/github-logo.png" alt="github-logo"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/carl-baines-874555269/"
+            class="linkedin-link"
+            ><img src="./Assets/images/linkedin-logo.png" alt="linkedin-logo"
+          /></a>
+          <a href="https://leetcode.com/u/CarlBaines2006/" class="leetcode-link"
+            ><img src="./Assets/images/leetcode-logo.png" alt="leetcode-logo"
+          /></a>
+          <a href = "./Assets/Carl_Baines_CV.docx"><button>CV</button></a>
+        </div>
+      </nav>
     </header>
 
     <section class="hero">
-        <div class="center-image"><img src="./Assets/images/carl-pfp.png" alt="c-logo"></div>
-        <div class="hero-container">
-            <div class="column-center">
-                <h1>Carl Baines</h1>
-                <p>BSc(Hons) Computer Science Student at Teesside University</p>
-                <div class="row">
-                    <div class="github-link"><a href="https://github.com/CarlBaines" target="_blank"><img
-                                src="./Assets/images/github-logo.png" alt="git-link"></a></div>
-                    <div class="linkedin-link"><a href="https://www.linkedin.com/in/carl-baines-874555269/"
-                            target="_blank"><img src="./Assets/images/linkedin-logo.png" alt="linkedin-link"></a>
-                    </div>
-                    <div class="leetcode-link"><a href="https://leetcode.com/u/CarlBaines2006/" target="_blank"><img
-                                src="./Assets/images/leetcode-logo.png" alt="leetcode-link"></a>
-                    </div>
-                </div>
-            </div>
+      <div class="center-image">
+        <img src="./Assets/images/carl-pfp.png" alt="c-logo" />
+      </div>
+      <div class="hero-container">
+        <div class="column-center">
+          <h1>
+            Hi, my name is Carl <br />
+            Thomas Baines
+          </h1>
+          <p>BSc(Hons) Computer Science Student at Teesside University, driven to program real-world applications.</p>
+        </div>
+        <div class = "button-container">
+          <a href = "https://github.com/CarlBaines?tab=repositories" target = "_blank"><button>GitHub Projects</button></a>
+          <a href = "#contact-description"><button>Contact Me</button></a>
+        </div>
+      </div>
     </section>
 
     <div class="description">
-        <h1>Hi my name is Carl</h1>
-        <p>Hello, my name is Carl and I am a student who is going into their second year of a BsC(Hons) Computer Science
-            course at Teesside
-            University. I have an interest in a number of areas of computing, particularly full stack development and
-            web design/development . I have had experience in a range of programming languages including
-            Java, SQL, HTML/CSS/JS. In my first year of university, I studied the modules Object-Orientated Programming,
-            Secure Computers & Networks, System Design & Databases and Algorithmic Problem Solving.</p>
-        <a href="#widgets-row">
-            <button>Read More ></button>
-        </a>
+      <h1>About Me</h1>
+      <p>
+        I am a student who is going into their second year of a BsC(Hons)
+        Computer Science course at Teesside University. I have an interest in a
+        number of areas of computing, particularly full stack development and
+        web design/development . I have had experience in a range of programming
+        languages including Java, SQL, HTML/CSS/JS. In my first year of
+        university, I studied the modules Object-Orientated Programming, Secure
+        Computers & Networks, System Design & Databases and Algorithmic Problem
+        Solving.
+      </p>
+      <a href="#widgets-row">
+        <button>Read More ></button>
+      </a>
     </div>
 
     <section id="widgets-row">
-        <div class="box">
-            <h1>Experience</h1>
-            <h2>Junior Software Assistant Internship</h2>
-            <a href="https://www.mapmedia.co.uk/" target="_blank"><img src="./Assets/images/map-media-logo.jpg"
-                    alt="company-logo"></a>
-            <h3>Map Media</h3>
-            <h3>(October 2023 - April 2024)</h3>
-            <ul>
-                <li>Completed a 315-hour internship and was subsequently offered a position at the company.</li>
-                <li>I primarily focused on creating websites using WordPress and the plugin Elementor. For these
-                    websites, I would implement on-page and backend SEO.</li>
-                <li>I developed many soft skills from undertaking the internship such as teamwork, communication,
-                    problem-solving and decision-making skills.</li>
-            </ul>
-            <h2>Examples of Work</h2>
-            <ul>
-                <li><a href="https://thesmugglersdenbar.co.uk/" target="_blank">Website for Pub</a></li>
-                <li><a href="https://sitsandgigglespetcare.co.uk/" target="_blank">Website for Dog Care Company</a></li>
-                <li><a href="https://caravanmedicteesside.co.uk/" target="_blank">Website for Caravan Maintenance
-                        Company</a></li>
-            </ul>
-        </div>
-        <div class="skills-box">
-            <h1>Skills</h1>
-            <ul>
-                <li>I am certified in Microsoft Word and PowerPoint.</li>
-                <li>I have experience in Java, SQL, HTML and CSS.</li>
-                <li>I am skilled at using content management systems, such as WordPress.</li>
-                <li>I am proficient at video editing, using tools such as Davinci Resolve.</li>
-                <li>I am proficient at structuring and articulating written work and documentation.</li>
-            </ul>
-            <img src="./Assets/images/java-logo.png" alt="java-logo">
-            <img src="./Assets/images/sql-server-icon.png" alt="sql-logo">
-            <img src="./Assets/images/html-logo.png" alt="html-logo">
-            <img src="./Assets/images/css-logo.png" alt="css-logo">
-            <img src="./Assets/images/wordpress-logo.png" alt="wordpress-logo">
-            <img src="./Assets/images/davinci-logo.png" alt="davinci-logo">
-        </div>
-        <div class="box">
-            <h1>Education</h1>
-            <h2>Teesside University</h2>
-            <a href="https://www.tees.ac.uk/" target="_blank"><img src="./Assets/images/teesside-university-logo.png"
-                    alt="uni-logo"></a>
-            <h3>(September 2024 - Present)</h3>
-            <p>Currently Studying a BsC(Hons) Degree in Computer Science.
-                <br>2nd Semester Results<br>Algorithmic Problem Solving - Awaiting<br>System Designs & Databases -
-                Awaiting
-                <br>
-                <br>1st Semester Results<br>Object-Orientated Programming - Upper 2nd<br>Secure Computers & Networks -
-                1st
-            </p>
-            <h2>Middlesbrough College</h2>
-            <a href="https://www.mbro.ac.uk/" target="_blank"><img src="./Assets/images/mc-college-logo.png"
-                    alt="school-logo"></a>
-            <h3>(September 2022 - June 2024)</h3>
-            <p>Completed a BTEC Level 3 T-Level Course in Digital Production Design and Development.
-                <br>Grade - Merit
-            </p>
-            <h2>Outwood Academy Bydales</h2>
-            <a href="https://www.bydales.outwood.com/" target="_blank"><img src="./Assets/images/bydales-logo.png"
-                    alt="school-logo"></a>
-            <h3>(September 2017 - June 2022)</h3>
-            <p>
-                Grade 7 (A's) in Computer Science, English Literature/Language, Statistics and History.<br>
-                Grade 6 (B's) in Maths, Biology, Chemistry, Physics and French.
-            </p>
-        </div>
+      <div class="box">
+        <h1>Experience</h1>
+        <h2>Junior Software Assistant Internship</h2>
+        <a href="https://www.mapmedia.co.uk/" target="_blank"
+          ><img src="./Assets/images/map-media-logo.jpg" alt="company-logo"
+        /></a>
+        <h3>Map Media</h3>
+        <h3>(October 2023 - April 2024)</h3>
+        <ul>
+          <li>
+            Completed a 315-hour internship and was subsequently offered a
+            position at the company.
+          </li>
+          <li>
+            I primarily focused on creating websites using WordPress and the
+            plugin Elementor. For these websites, I would implement on-page and
+            backend SEO.
+          </li>
+          <li>
+            I developed many soft skills from undertaking the internship such as
+            teamwork, communication, problem-solving and decision-making skills.
+          </li>
+        </ul>
+        <h2>Examples of Work</h2>
+        <ul>
+          <li>
+            <a href="https://thesmugglersdenbar.co.uk/" target="_blank"
+              >Website for Pub</a
+            >
+          </li>
+          <li>
+            <a href="https://sitsandgigglespetcare.co.uk/" target="_blank"
+              >Website for Dog Care Company</a
+            >
+          </li>
+          <li>
+            <a href="https://caravanmedicteesside.co.uk/" target="_blank"
+              >Website for Caravan Maintenance Company</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="skills-box">
+        <h1>Skills</h1>
+        <ul>
+          <li>I am certified in Microsoft Word and PowerPoint.</li>
+          <li>I have experience in Java, SQL, HTML and CSS.</li>
+          <li>
+            I am skilled at using content management systems, such as WordPress.
+          </li>
+          <li>
+            I am proficient at video editing, using tools such as Davinci
+            Resolve.
+          </li>
+          <li>
+            I am proficient at structuring and articulating written work and
+            documentation.
+          </li>
+        </ul>
+        <img src="./Assets/images/java-logo.png" alt="java-logo" />
+        <img src="./Assets/images/sql-server-icon.png" alt="sql-logo" />
+        <img src="./Assets/images/html-logo.png" alt="html-logo" />
+        <img src="./Assets/images/css-logo.png" alt="css-logo" />
+        <img src="./Assets/images/wordpress-logo.png" alt="wordpress-logo" />
+        <img src="./Assets/images/davinci-logo.png" alt="davinci-logo" />
+      </div>
+      <div class="box">
+        <h1>Education</h1>
+        <h2>Teesside University</h2>
+        <a href="https://www.tees.ac.uk/" target="_blank"
+          ><img
+            src="./Assets/images/teesside-university-logo.png"
+            alt="uni-logo"
+        /></a>
+        <h3>(September 2024 - Present)</h3>
+        <p>
+          Currently Studying a BsC(Hons) Degree in Computer Science. <br />2nd
+          Semester Results<br />Algorithmic Problem Solving - Awaiting<br />System
+          Designs & Databases - Awaiting
+          <br />
+          <br />1st Semester Results<br />Object-Orientated Programming - Upper
+          2nd<br />Secure Computers & Networks - 1st
+        </p>
+        <h2>Middlesbrough College</h2>
+        <a href="https://www.mbro.ac.uk/" target="_blank"
+          ><img src="./Assets/images/mc-college-logo.png" alt="school-logo"
+        /></a>
+        <h3>(September 2022 - June 2024)</h3>
+        <p>
+          Completed a BTEC Level 3 T-Level Course in Digital Production Design
+          and Development. <br />Grade - Merit
+        </p>
+        <h2>Outwood Academy Bydales</h2>
+        <a href="https://www.bydales.outwood.com/" target="_blank"
+          ><img src="./Assets/images/bydales-logo.png" alt="school-logo"
+        /></a>
+        <h3>(September 2017 - June 2022)</h3>
+        <p>
+          Grade 7 (A's) in Computer Science, English Literature/Language,
+          Statistics and History.<br />
+          Grade 6 (B's) in Maths, Biology, Chemistry, Physics and French.
+        </p>
+      </div>
     </section>
 
     <div class="hobbies-title">
-        <h1>About Me - My Hobbies/Interests</h1>
+      <h1>Hobbies and Interests</h1>
     </div>
 
     <section class="hobbies-one">
-        <div class="box">
-            <h1>Football</h1>
-            <img src="./Assets/images/boro-logo.png" alt="club-logo">
-            <ul>
-                <li>I support Middlesbrough FC.</li>
-                <li>I play a lot of football with my friends.</li>
-                <li>I like to play football because I like running, which is also something I do.</li>
-            </ul>
-        </div>
-        <div class="box">
-            <h1>Gaming</h1>
-            <img src="./Assets/images/marvel-rivals-icon.png" alt="game-logo">
-            <ul>
-                <li>I occassionally like to play video games.</li>
-                <li>When I do play video games, my favourite games I like to play currently are Marvel Rivals, Fortnite
-                    and SpongeBob BFBB Rehydrated.</li>
-            </ul>
-        </div>
-        <div class="box">
-            <h1>Reading</h1>
-            <img src="./Assets/images/Atomic_habits.jpg" alt="book">
-            <ul>
-                <li>I enjoy reading in my spare time.</li>
-                <li>My favourite book to read is Atomic Habits by James Clear.</li>
-                <li>My favourite book series I have read has to be The Lord of the Rings trilogy.</li>
-            </ul>
-        </div>
-        <div class="box">
-            <h1>Music</h1>
-            <img src="./Assets/images/apple_music_logo.png" alt="music-logo">
-            <img src="./Assets/images/ss$u_cover.png" alt="album-logo">
-            <ul>
-                <li>I enjoy listening to music on Apple Music.</li>
-                <li>My favourite artists are Drake, Kendrick Lamar and Joji.</li>
-                <li>I also enjoy listening to music on vinyl. I have a $$4U vinyl.</li>
-            </ul>
-        </div>
+      <div class="box">
+        <h1>Football</h1>
+        <img src="./Assets/images/boro-logo.png" alt="club-logo" />
+        <ul>
+          <li>I support Middlesbrough FC.</li>
+          <li>I play a lot of football with my friends.</li>
+          <li>
+            I like to play football because I like running, which is also
+            something I do.
+          </li>
+        </ul>
+      </div>
+      <div class="box">
+        <h1>Gaming</h1>
+        <img src="./Assets/images/marvel-rivals-icon.png" alt="game-logo" />
+        <ul>
+          <li>I occassionally like to play video games.</li>
+          <li>
+            When I do play video games, my favourite games I like to play
+            currently are Marvel Rivals, Fortnite and SpongeBob BFBB Rehydrated.
+          </li>
+        </ul>
+      </div>
+      <div class="box">
+        <h1>Reading</h1>
+        <img src="./Assets/images/Atomic_habits.jpg" alt="book" />
+        <ul>
+          <li>I enjoy reading in my spare time.</li>
+          <li>My favourite book to read is Atomic Habits by James Clear.</li>
+          <li>
+            My favourite book series I have read has to be The Lord of the Rings
+            trilogy.
+          </li>
+        </ul>
+      </div>
+      <div class="box">
+        <h1>Music</h1>
+        <img src="./Assets/images/apple_music_logo.png" alt="music-logo" />
+        <img src="./Assets/images/ss$u_cover.png" alt="album-logo" />
+        <ul>
+          <li>I enjoy listening to music on Apple Music.</li>
+          <li>My favourite artists are Drake, Kendrick Lamar and Joji.</li>
+          <li>
+            I also enjoy listening to music on vinyl. I have a $$4U vinyl.
+          </li>
+        </ul>
+      </div>
     </section>
 
-
     <section id="contact-section">
-        <div id="contact-description">
-            <h1>Contact Me</h1>
-            <h2>Phone Number</h2>
-            <img src="./Assets/images/phone-icon.png" alt="phone-icon">
-            <a href="tel:0794257641">0794257641</a>
-            <h2>Email Address</h2>
-            <img src="./Assets/images/email-icon.png" alt="email-icon">
-            <span>carltbaines@hotmail.co.uk</span>
-        </div>
+      <div id="contact-description">
+        <h1>Contact Me</h1>
+        <h2>Phone Number</h2>
+        <img src="./Assets/images/phone-icon.png" alt="phone-icon" />
+        <a href="tel:0794257641">0794257641</a>
+        <h2>Email Address</h2>
+        <img src="./Assets/images/email-icon.png" alt="email-icon" />
+        <span>carltbaines@hotmail.co.uk</span>
+      </div>
     </section>
 
     <div class="footer">
-        <h1>2025 | Created by Carl Baines | <a href="https://github.com/CarlBaines" target="_blank">Github</a></h1>
+      <h1>
+        2025 | Created by Carl Baines |
+        <a href="https://github.com/CarlBaines" target="_blank">Github</a>
+      </h1>
     </div>
 
-    <button id = "scroll-to-top-btn" onclick = "toTop()">↑</button>
-    <button id = "dark-mode-btn" onclick = "darkMode()">☾</button>
-
-</body>
-<script src = "js/script.js"></script>
+    <button id="scroll-to-top-btn" onclick="toTop()">↑</button>
+    <button id="dark-mode-btn" onclick="darkMode()">☾</button>
+  </body>
+  <script src="js/script.js"></script>
 </html>
