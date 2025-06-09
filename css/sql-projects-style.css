@@ -137,24 +137,8 @@ nav a{
     padding-bottom: 15px;
 }
 
-/* Specific iframe styling for project demos */
-.project-demo iframe {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    background: #000;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    width: 750px;
-    max-width: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    height: 450px;
-}
-
-
 .project-description p{
     text-align: center;
-    padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 500px;
     padding-right: 500px;
