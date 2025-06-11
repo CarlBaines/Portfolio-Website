@@ -55,3 +55,25 @@ darkModeBtn.addEventListener("click", function() {
         darkModeBtn.textContent = "☾";
     }
 });
+
+// Hamburger menu functionality
+document.addEventListener('DOMContentLoaded', function() {
+    const hamburger = document.getElementById('hamburger');
+    const mainNavigation = document.getElementById('main-navigation');
+    
+    if (hamburger && mainNavigation) {
+        hamburger.addEventListener('click', function() {
+            mainNavigation.classList.toggle('active');
+            hamburger.classList.toggle('active');
+        });
+
+        // Close menu when clicking on navigation links
+        const navLinks = mainNavigation.querySelectorAll('a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mainNavigation.classList.remove('active');
+                hamburger.classList.remove('active');
+            });
+        });
+    }
+});

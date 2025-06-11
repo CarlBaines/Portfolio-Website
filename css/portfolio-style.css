@@ -193,15 +193,17 @@ nav a:hover{
     padding-top: 45px;
 }
 
-.footer h1{
-    color: white;
-    font-weight: 700;
+.footer h1 {
+  color: white;
+  font-family: Happy Monkey;
+  font-weight: bold;
 }
 
-.footer a{
-    color: white;
-    font-weight: 700;
-    text-decoration: none;
+.footer a {
+  color: white;
+  text-decoration: none;
+  font-family: Happy Monkey;
+  font-weight: bold;
 }
 
 .footer a:hover{
