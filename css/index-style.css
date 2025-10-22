@@ -179,6 +179,8 @@ nav a {
   margin-left: auto;
   margin-right: 250px;
   width: 382px;
+  position: relative;
+  top: 65px;
   padding-top: 200px;
   animation: fadeInAnimation ease 1s;
   animation-iteration-count: 1;
@@ -237,7 +239,7 @@ nav a {
   font-size: 20px;
   padding-top: 25px;
   padding-bottom: 25px;
-  max-width: 600px;
+  max-width: 650px;
 }
 
 .github-link img,
@@ -419,7 +421,6 @@ nav a {
 
 .skills-box img:hover {
   transform: scale(1.02);
-  padding-bottom: 10px;
 }
 
 /* Contact section */
